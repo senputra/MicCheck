@@ -187,7 +187,8 @@ public class MainActivity extends AppCompatActivity {
 
                     DatagramPacket datagramPacket;
 
-                    final InetAddress destination = InetAddress.getByName("127.0.0.1");
+//                    final InetAddress destination = InetAddress.getByName("127.0.0.1");
+                    final InetAddress destination = InetAddress.getByName("10.42.0.1");
                     Log.d(LOG_TAG, "IP address is successfully added.");
 
                     recorder = new AudioRecord(
