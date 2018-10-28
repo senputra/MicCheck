@@ -8,7 +8,8 @@ Requirements:
  
 Usage:
   1. Run the Java Application on the laptop.
-        By typing "java . . . ." in console
+        Go in to the "server File" folder and
+        By typing "java micServer" in console
   2. Check the Ip address of the computer.
         By typing "ip address" on Linux 
         and "ifconfig -all" on Windows 
